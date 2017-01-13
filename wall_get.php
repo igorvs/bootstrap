@@ -23,9 +23,10 @@ if (isset($_POST['group_id']) && ! empty($_POST['group_id'])) {
         'filter' => 'all',
         'fields' => '',//implode(',', $fields),
         'access_token' => ACCESS_TOKEN,
+        'album_id' => 'wall'
     ];
 
-    $url = METHOD_URI . 'wall.get?' .
+    $url = METHOD_URI . 'photos.get?' .
         http_build_query($data);
 
     // $json = file_get_contents($url);

@@ -3,8 +3,8 @@
 function save_photo($photo_src) {
     $host = "127.0.0.1";
     $user = "root";
-    $pawd = "dreamteam";
-    $db = "vk";
+    $pawd = "15195185123zxc";
+    $db = "test_b";
 
     $connection = mysqli_connect($host, $user, $pawd, $db);
 
